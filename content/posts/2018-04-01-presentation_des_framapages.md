@@ -3,7 +3,6 @@ Date: 2018-04-01
 Category: Blog
 Tags: Framapages, Framasites, Framasoft
 Slug: presentation_des_framapges
-cover: https://framagit.org/Rafi594/pelican/raw/master/images/Capture d’écran_2018-04-01_14-00-00.png
 
 Dans cet article je vais présenter les Framapages.
 
