@@ -9,6 +9,9 @@ python:
 install:
 - pip3 install pelican ghp-import
 script:
+- make html
+- sleep 30
+- exit
 - make publish github
 env:
   global:
