@@ -11,15 +11,6 @@ install:
 script:
 - make html
 - make publish github
-
-notifications:
-  email: true
-  irc:
-    on_success: always
-    on_failure: always
-    channels:
-- "irc.freenode.net#rafi59_test"
-
 env:
   global:
     secure: Lis8ALJ7Jxiu7bGdlDsoOvwAFnvijjkb3e7tN72M42LbEbHbAQZRy585Y1bRhd6mrSc30xcjJvT9E1RomAkAWbx0XreD/A+Fu8c9qMOGyBGVTQHXzUL9C2b3IM6SJ0yialFg0DazWoOFvmvphKhXGdCJesMLrk9OS166PlPX6V+Z/OOHoJu8rTlDswkmDj4qVcZdPmiNhBe1JBbN56iy+l9t4cblCvTropoz88zvIgipz5zNEeYDULR17EqDVfnyphbwjb+vOsWrqNlvnfvtpRndKh70scu0NZqyr12A3x9jIjcYDraiAgSCwtXWfGRB1p1lrZpH07WerCj/1J/ffiuF88jwqGo1RVZf5eLf9JY1m9WltF/VrOOXa7BqgbHJhNPhwX5SvCwIdl6le+MRrXRU97hTVIZO8T+jazYnWWuMZBvS490HGEwsQ/jjnzaAsSY5m9lkJJ1d5Qz++kW/Y+hTruTQOxf0WuO9kRB3fDKgFSE0lHmksV2T+2f7q/RFBKLl/4NCP14Mu44xUQ3pgoaAox/ipeWN262Vx+nTBHInHR42rn+QCf0fO8r0g8+1i2KkNY8YyvEf/MTtFlVzFBQlaZvtVdnTlvTac3bbQDSMNSfDtBK/SuhggG8AzdLkY6qarwyKAyu6VabUwws7c13GmZgSC1J0WMHYwKdWIUU=
