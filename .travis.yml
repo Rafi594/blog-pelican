@@ -7,7 +7,7 @@ python:
   - "3.6"
    
 install:
-- pip3 install pelican ghp-import
+- pip3 install pelican ghp-import markdown
 script:
 - make html
 - make publish github
