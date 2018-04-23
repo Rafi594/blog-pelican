@@ -1,9 +1,9 @@
-language: python3
+language: python
 branches:
   only:
   - master
 install:
-- pip install pelican ghp-import
+- pip3 install pelican ghp-import
 script:
 - make publish github
 env:
