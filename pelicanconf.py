@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-THEME = ''
+THEME = 'theme'
 AUTHOR = 'rafi59'
 SITENAME = 'Blog de rafi59'
 SITEURL = ''
